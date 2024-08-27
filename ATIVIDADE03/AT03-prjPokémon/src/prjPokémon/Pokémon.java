@@ -19,13 +19,13 @@ public class Pokémon {
 		this.hp = hp;
 	}
 	//Metodos
-	void atacar() {
+	public void atacar() {
         System.out.println(nome + " usou um ataque!");
     }
-    void evoluir() {
+        public void evoluir() {
         System.out.println(nome + " evoluiu!");
     }
-    void exibirInfo(){
+        public void exibirInfo(){
         System.out.println();
 	System.out.println("Nome: " + this.nome);
         System.out.println("Tipo: " + this.tipo);
