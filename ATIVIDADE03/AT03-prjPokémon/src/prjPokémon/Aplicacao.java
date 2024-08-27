@@ -4,16 +4,15 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		//Instanciamento de classe
-		Pokémon pikachu = new Pokémon("Pikachu", "Elétrico", 2, 25);
+		Pokémon Pikachu = new Pokémon("Pikachu", "Elétrico", 2, 25);
 		Pokémon Arcanine = new Pokémon("Arcanine", "Fogo", 4, 50);
 		Pokémon Dugtrio = new Pokémon("Dugtrio", "Terra", 6, 75);
 		Pokémon Golduck = new Pokémon("Golduck", "Água", 8, 100);
 		Pokémon Persian = new Pokémon("Persian", "Normal", 10, 125);
 		
-		pikachu.evoluir();
-		pikachu.atacar();
-		pikachu.exibirInfo();
+		Pikachu.evoluir();
+		Pikachu.atacar();
+		Pikachu.exibirInfo();
 		
 		Arcanine.evoluir();
 		Arcanine.atacar();
