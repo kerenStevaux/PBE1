@@ -9,10 +9,10 @@ public class Pokémon {
 	int hp;
 	
 	//Construtores
-	Pokémon() {
+	public void Pokémon() {
 	}
 	
-	public Pokémon(String nome, String tipo, double nivel, int hp) {
+	public void Pokémon(String nome, String tipo, double nivel, int hp) {
 		this.nome = nome;
 		this.tipo = tipo;
 		this.nivel = nivel;
