@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Cliente</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      padding: 15px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Cadastro de Cliente e Endereço</h1>
+
+<form id="clienteForm">
+  <label for="nome">Nome</label>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="senha">Senha</label>
+  <input type="password" id="senha" name="senha" required>
+
+  <label for="cpf">CPF</label>
+  <input type="text" id="cpf" name="cpf" required>
+
+  <label for="logradouro">Logradouro</label>
+  <input type="text" id="logradouro" name="logradouro" required>
+
+  <label for="numero">Número</label>
+  <input type="text" id="numero" name="numero" required>
+
+  <label for="cidade">Cidade</label>
+  <input type="text" id="cidade" name="cidade" required>
+
+  <button type="submit">Cadastrar</button>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
